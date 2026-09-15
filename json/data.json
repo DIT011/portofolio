@@ -1,0 +1,219 @@
+{
+  "Projects": [
+    {
+      "show": true,
+      "title": "Tyo Super Laundry Management System",
+      "desc": [
+        "A laundry management system developed for Tyo Super Laundry to manage transactions and track laundry orders. The system includes a mobile application that notifies customers when their laundry is ready and integrates weather information to estimate laundry completion times based on weather conditions."
+      ],
+      "year": "2024",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/laundry.jpg",
+      "images": [
+        "/image/projects/laundry.jpg"
+      ],
+      "tech": [
+        "Laravel",
+        "Php",
+        "Bootstrap",
+        "Css",
+        "MySQL",
+        "Flutter",
+        "Dart"
+      ],
+      "slug": "pbl-laundry",
+      "category": [
+        1
+      ]
+    },
+    {
+      "show": true,
+      "title": "Banyuwangi Crab Aquaculture Website",
+      "desc": [
+        "A simple static website developed as a lecturer-assigned project to provide information about aquaculture in Banyuwangi. The project focused on implementing a clean and informative web interface based on the provided requirements."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/crab.jpg",
+      "images": [
+        "/image/projects/crab.jpg"
+      ],
+      "tech": [
+        "Laravel",
+        "Php",
+        "Bootstrap",
+        "Css"
+      ],
+      "slug": "crab-aquaculture",
+      "category": [
+        1,
+        2
+      ]
+    },
+    {
+      "show": true,
+      "title": "E-Surf Bwi",
+      "desc": [
+        "A simple WordPress website for renting surfboards in Banyuwangi. The website provides rental information and guides customers to submit rental requests through a Google Form."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/e-surf.jpg",
+      "images": [
+        "/image/projects/e-surf.jpg"
+      ],
+      "tech": [
+        "Wordpress"
+      ],
+      "slug": "e-surf",
+      "category": [
+        1,
+        2
+      ]
+    },
+    {
+      "show": true,
+      "title": "Adz-Dzikra Islamic Boarding School Website",
+      "desc": [
+        "A website for Adz-Dzikra Islamic Boarding School featuring new student registration, payment information, and a content management system for publishing school news and media. Contributed primarily to the frontend development while also assisting with backend implementation."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/pondok.jpg",
+      "images": [
+        "/image/projects/pondok.jpg"
+      ],
+      "tech": [
+        "Laravel",
+        "Php",
+        "Bootstrap",        
+        "Css",
+        "MySQL"
+      ],
+      "slug": "adz-zikra",
+      "category": [
+        1,
+        2
+      ]
+    },
+    {
+      "show": true,
+      "title": "Bumirejo Village Profile Website",
+      "desc": [
+        "A simple static website developed to provide information about Bumirejo Village. Contributed to the frontend development by implementing the website interface and presenting village information in a clear and accessible way."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/bumirejo.jpg",
+      "images": [
+        "/image/projects/bumirejo.jpg"
+      ],
+      "tech": [
+        "Laravel",
+        "Php",
+        "Bootstrap",        
+        "Css"
+      ],
+      "slug": "bumirejo",
+      "category": [
+        1,
+        2
+      ]
+    },
+    {
+      "show": true,
+      "title": "Village Digitalization Website",
+      "desc": [
+        "A village digitalization platform developed during a four-month internship at CV Eksa Reka Cipta to digitize administrative processes and public services. The application features a multi-level user system for company administrators, village officers, and residents, along with digital letter requests, dynamic document numbering, PDF generation, real-time notifications, public complaints, social assistance tracking, and a village blog.",
+        "I independently handled the full-stack development, including the responsive interface, backend functionality, database integration, real-time features using Pusher, and deployment to a live hosting environment."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/digital-desa.jpg",
+      "images": [
+        "/image/projects/digital-desa.jpg"
+      ],
+      "tech": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Pusher",
+        "DomPDF"
+      ],
+      "slug": "village-digitalization",
+      "category": [
+        1,
+        2
+      ]
+    },
+    {
+      "show": true,
+      "title": "Kominfo Internship Participant Management Website",
+      "desc": [
+        "An internship management system developed for the Dinas Komunikasi, Informatika, dan Persandian (Kominfo) Banyuwangi to digitize the management of internship applicants and replace the previous manual registration and monitoring process.",
+        "I developed the admin-side functionality, including applicant validation, mentor assignment with automatic workload distribution, centralized monthly and final report management, and a visual calendar for tracking internship schedules. The system also integrates WhatsApp-based OTP verification using the Fonnte API and was deployed using Nginx, PHP-FPM, and MySQL.",
+        "The application was validated through User Acceptance Testing (UAT), covering form validation, OTP authentication, and calendar and report functionality to ensure the system met the specified requirements."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/magang.png",
+      "images": [
+        "/image/projects/magang.png"
+      ],
+      "tech": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Fonnte API"
+      ],
+      "slug": "internship-management",
+      "category": [
+        1,
+        2
+      ]
+    },
+    {
+      "show": true,
+      "title": "PLN UP3 Banyuwangi Substation Inventory System",
+      "desc": [
+        "A web- and mobile-based inventory system built to help PT PLN (Persero) UP3 Banyuwangi digitize substation asset management, replacing a manual, Excel-based recording process that caused data inconsistency and limited real-time access for field teams. The system integrates QR Code-based substation identification, location mapping, and centralized maintenance history tracking.",
+        "Designed for field reliability, the mobile app supports offline data recording with automatic synchronization once internet access is restored — built specifically for technicians working in low-connectivity substation locations. The system was validated through 100% success across 29 Black Box Testing scenarios and an 88.33% User Acceptance Testing score from PLN stakeholders."
+      ],
+      "year": "2026",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/pln.png",
+      "images": [
+        "/image/projects/pln.png",
+        "/image/projects/pln-2.png",
+        "/image/projects/pln 3.png"
+      ],
+      "tech": [
+        "Laravel",
+        "Php",
+        "Bootstrap",
+        "Css",
+        "MySQL",
+        "Flutter",
+        "Dart",
+        "SQLite"
+      ],
+      "slug": "up3",
+      "category": [
+        1,
+        2
+      ]
+    }
+  ]
+}
