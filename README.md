@@ -1,6 +1,4 @@
-# Alvalens Portfolio
-
-![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=aleph-discord-bot.visitor-badge)
+# Aldyto Portfolio
 
 Personal portfolio website built with Next.js 15, featuring fullpage scrolling, Framer Motion animations, and Tailwind CSS. The site showcases projects from a JSON data source and includes Spotify integration, real-time chat, and structured SEO.
 
@@ -127,5 +125,11 @@ Contributions are welcome! If you find any issues or have suggestions, feel free
 ## License
 
 This project is licensed under the GPL-3.0 License — see the [LICENSE](LICENSE) file for details.
+
+This portfolio is based on the [Alvalens Portfolio](https://github.com/Alvalens/Alvalens-porto-2-nextJs) 
+
+template created by [Alvalens](https://github.com/Alvalens), 
+
+customized for Aldyto's personal CV/portfolio.
 
 Copyright (C) 2025 Alvalen Shafelbilyunazra
