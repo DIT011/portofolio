@@ -3,6 +3,7 @@ import { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import jsonData from "@/json/data.json";
+import { basePath } from "@/lib/basePath";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -203,7 +204,7 @@ function ProjectDetail({ slug }) {
 					{data.images.map((image, index) => (
 						<ProjectImage
 							key={index}
-							src={image}
+							src={`${basePath}${image}`}
 							alt={`Project Image ${index + 1}`}
 							index={index}
 						/>
