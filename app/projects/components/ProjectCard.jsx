@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { basePath } from "@/lib/basePath";
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 import BlurImage from "@/public/image/placeholder/blur.jpg";
