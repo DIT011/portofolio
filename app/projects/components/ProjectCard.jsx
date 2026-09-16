@@ -23,7 +23,7 @@ export default function ProjectCard({ project, index, activeCategory }) {
 							type: "spring",
 						}}>
 						<Image
-							src={project.thumbnail}
+							src={`${basePath}${project.thumbnail}`}
 							alt="Alvalens"
 							fill
 							placeholder="blur"
