@@ -4,8 +4,8 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 
 module.exports = withBundleAnalyzer({
 	output: "export",
-	basePath: "/web_cv",
-	assetPrefix: "/web_cv/",
+	basePath: "/portofolio",
+	assetPrefix: "/portofolio/",
 
 	images: {
 		unoptimized: true,
