@@ -1,19 +1,16 @@
 const withBundleAnalyzer = require("@next/bundle-analyzer")({
 	enabled: process.env.ANALYZE === "true",
 });
+
 module.exports = withBundleAnalyzer({
-	// your Next.js configuration
+	output: "export",
+	basePath: "/web_cv",
+	assetPrefix: "/web_cv/",
+
 	images: {
-		remotePatterns: [
-			{
-				protocol: "https",
-				hostname: "i.scdn.co",
-			},
-		],
-		// Add image optimization settings
-		formats: ["image/avif", "image/webp"],
-		minimumCacheTTL: 60,
+		unoptimized: true,
 	},
+
 	webpack: (config, options) => {
 		config.module.rules.push({
 			test: /\.pdf$/i,
@@ -22,28 +19,7 @@ module.exports = withBundleAnalyzer({
 
 		return config;
 	},
-	async headers() {
-		return [
-			{
-				source: "/:path*",
-				headers: [
-					{
-						key: "X-Content-Type-Options",
-						value: "nosniff",
-					},
-					{
-						key: "X-Frame-Options",
-						value: "DENY",
-					},
-					{
-						key: "X-XSS-Protection",
-						value: "1; mode=block",
-					},
-				],
-			},
-		];
-	},
-	// Add performance optimizations
+
 	reactStrictMode: true,
 	compiler: {
 		removeConsole:
