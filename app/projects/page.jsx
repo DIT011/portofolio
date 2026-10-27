@@ -26,7 +26,9 @@ const category = {
 
 export default function Page() {
 	const [activeCategory, setActiveCategory] = useState(1);
-	const projects = Projects.Projects.filter((item) => item.show === true);
+	const projects = Projects.Projects
+	.filter((item) => item.show === true)
+	.sort((a, b) => Number(b.year) - Number(a.year));
 
 	useEffect(() => {
 		window.scrollTo(0, 0);

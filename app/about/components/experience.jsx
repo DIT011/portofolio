@@ -62,7 +62,7 @@ const experiences = [
 	},	
 ];
 
-// experiences.reverse();
+ experiences.reverse();
 
 function Title() {
 	return (
